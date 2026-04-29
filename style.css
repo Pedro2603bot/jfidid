@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #131313;
+  padding: 25px;
+            margin: 15px;
+            border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+p {
+  color:#2b2b2b;
+  font-family: Arial;
+}
+
+div {
+    text-align:end;
+    background-color: blanchedalmond;
+    color: rgb(212, 212, 212);
+    text-align: left;
+}
+
+
+
+/* Parte-Do-Começo */
+
+#parte-geral-inicio{
+padding-bottom: 100px;
+text-align: center;
+}
+
+#texto-principal{
+  font-size: 100px;
+  color: rgb(203, 203, 203);
+  font-family: Oswald;
+}
+#foto-principal {
+  border-radius: 20px;
+}
+
+/* Counteúdo (texto) Principal */ 
+
+#parte-geral-corpo-texto-principal {
+  background-image: url(https://i.imgur.com/8CJxgvX.png);
+  background-repeat: no-repeat;  /* impede repetição */
+  background-size: cover;
+  text-align: center;
+  border-radius: 100px;
+  padding: 50px;
+  margin-top: -50px;
+  p {
+  color: rgb(212, 212, 212);
+  }}
+
+
+
+/* Parte da Apresentação do Link do Spotify */
+
+#corpo-do-texto-do-link-spotify {
+  
+  text-align: center;
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+  padding: 80px;
+}
+#texto-spotify {
+  color: rgb(185, 182, 182); 
+}
+#link-spotify {
+  color: rgb(56, 79, 255);
+}
+
+/* Parte do comentário/sugestão */
+#parte-comentario-projeto {
+  background-color: rgb(167, 43, 43);
+  text-align: center;
+  border-radius: 100px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+#texto-comentário {
+  font-size: 27px;
+  font-family: 'Roboto', sans-serif;
+  color:#131010;
+}
+#envio-formulario {
+  background-color: #FFF8E7;
+  font-size: 15px;
+}
+/* Botões enviar/apagar */
+#botao-enviar {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+}
+#botao-limpar {
+  background-color: #bdbdbd;
+  color: #333;
+  border-radius: 15px;
+  font-size: 15px;
+}
+/* PARTE FINAL (OU RODAPÉ)*/
+#parte-final {
+ border-radius: 20px;
+  text-align: left;
+  margin-top: 80px;
+  padding-bottom: 10px;
+  padding: 100px;
+
+  background-image: url(https://i.imgur.com/2e3m3ty.jpeg);
+  background-position: center 100%;   /* posição */
+  background-repeat: no-repeat;  /* impede repetição */
+  background-size: cover;        /* faz ela ocupar tudo sem distorcer */
+}
+
+
+
+
+/* PARTE DESATIVADA POREM SALVA --
+#voltar-ao-topo {
+ 
+ 
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 10px;
+}
+#voltar-ao-topo:hover {
+    transform: translateY(-3px); 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#seusite {
+text-align: end;
+text-align:right;
+}
+
+#ícone-pequeno {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+*/
